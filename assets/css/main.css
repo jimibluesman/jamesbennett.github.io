@@ -610,24 +610,7 @@ section,
   }
 }
 
-@media (max-width: 768px) {
-  .hero {
-    padding: 40px 0;
-    min-height: 100vh;
-  }
 
-  .hero h2 {
-    font-size: 32px;
-  }
-
-  .hero p {
-    font-size: 20px;
-  }
-
-  .hero img {
-    object-position: top; /* Adjust based on your image composition */
-  }
-}
 
 
 /*--------------------------------------------------------------
@@ -1157,6 +1140,24 @@ section,
   font-size: 20px;
   margin-right: 8px;
   color: var(--accent-color);
+}
+@media (max-width: 768px) {
+  .hero {
+    padding: 40px 0;
+    min-height: 100vh;
+  }
+
+  .hero h2 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 20px;
+  }
+
+  .hero img {
+    object-position: top; /* Adjust based on your image composition */
+  }
 }
 
 /*--------------------------------------------------------------
