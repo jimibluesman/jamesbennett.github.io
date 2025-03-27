@@ -1160,8 +1160,8 @@ section,
   }
 
   .hero img {
-    object-position: top;
-    height: 100vh;
+    object-position: top !important;
+    height: 100vh !important;
   }
 
   .hero h2 {
@@ -1172,6 +1172,7 @@ section,
     font-size: 20px;
   }
 }
+
 
 
 
