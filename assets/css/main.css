@@ -1141,10 +1141,24 @@ section,
   margin-right: 8px;
   color: var(--accent-color);
 }
+
+/*--------------------------------------------------------------
+# Starter Section Section
+--------------------------------------------------------------*/
+.starter-section {
+  /* Add your styles here */
+}
+
+/* your main CSS ends here... */
+
 @media (max-width: 768px) {
   .hero {
     padding: 40px 0;
     min-height: 100vh;
+  }
+
+  .hero img {
+    object-position: top;
   }
 
   .hero h2 {
@@ -1154,15 +1168,5 @@ section,
   .hero p {
     font-size: 20px;
   }
-
-  .hero img {
-    object-position: top; /* Adjust based on your image composition */
-  }
 }
 
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
