@@ -1160,7 +1160,7 @@ section,
   }
 
   .hero img {
-    object-position: top !important;
+    object-position: top right !important;
     height: 100vh !important;
   }
 
@@ -1172,6 +1172,7 @@ section,
     font-size: 20px;
   }
 }
+
 
 
 
